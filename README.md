@@ -56,7 +56,6 @@ In meinem Projekt wäre ein Quiz zu erstellen. Der Benutzer kann ein Fragen und 
 | 8.A | 14.02.2024 | Sathana | Ergebnisse/Bewertung anzeigen| 30 min |
 
 
-
 Total: 7
 
 
@@ -69,14 +68,13 @@ Ich habe mich entschieden den Notenschnittrechner im Visual Studio in C# zu impl
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  | 05.10.2023 | Sathana | 40min | 35min |
-| 1.B  | 05.10.2023 | Sathana | 30min | 20min |
-| 4.A  | 05.10.2023 | Sathana | 30min | 40min |
-| 7.A  | 05.10.2023 | Sathana | 20min | 20min|
-| 8.A  | 05.10.2023 | Sathana | 15min | 10min |
-| 5.A  | 05.10.2023 | Sathana | 25min | 25min |
-| 7.B  | 05.10.2023 | Sathana | 15min | 15min |
-| 8.A  | 05.10.2023 | Sathana | 20min | 15min |
+| 1.A  | 05.10.2023 | Sathana | 50min | - |
+| 3.A  | 05.10.2023 | Sathana | 45min | - |
+| 4.A  | 05.10.2023 | Sathana | 50min | -|
+| 5.A  | 05.10.2023 | Sathana | 2 x 45min | - |
+| 6.A  | 05.10.2023 | Sathana | 40min | - |
+| 7.A  | 05.10.2023 | Sathana | 30min | - |
+| 8.A  | 05.10.2023 | Sathana | 30min | - |
 
 
 ## 5 Kontrollieren
@@ -85,15 +83,15 @@ Ich habe mich entschieden den Notenschnittrechner im Visual Studio in C# zu impl
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  | 06.10.2023 | OK | Sathana |
-| 1.2  | 06.10.2023 | OK | Sathana |
-| 4.1  | 06.10.2023 | OK | Sathana |
-| 4.2  | 06.10.2023 | OK| Sathana |
-| 7.1  | 06.10.2023 | OK | Sathana |
-| 8.1  | 06.10.2023 | OK | Sathana |
-| 5.1  | 06.10.2023 | OK | Sathana |
-| 7.2  | 06.10.2023 | OK | Sathana |
-| 8.1  | 06.10.2023 | OK | Sathana |
+| 1.1  | 14.02.2024 | - | Sathana |
+| 1.2  | 14.02.2024 | - | Sathana |
+| 4.1  | 14.02.2024 | - | Sathana |
+| 4.2  | 14.02.2024 | -| Sathana |
+| 7.1  | 14.02.2024 | - | Sathana |
+| 8.1  | 14.02.2024 | - | Sathana |
+| 5.1  | 14.02.2024 | - | Sathana |
+| 7.2  | 14.02.2024 | - | Sathana |
+
 
 Das Spiel wurde auf einem HP Windows 11 Pro getestet. Ab und zu mal hat der Ton bei fehlerhaften Eingaben nicht abgespielt. Ansonsten funktioniert alles einwandfrei.
 
