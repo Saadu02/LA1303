@@ -12,7 +12,7 @@ Name: Sathana Suganthasri
 
 ### 1.1 Ihr Projekt
 
-In meinem Projekt wäre ein Quiz zu erstellen. Der Benutzer kann ein Fragen und Antowrten hinzufügen und speichern. Später kann er die Karten abfragen lassen.
+In meinem Projekt geht es um ein Quiz zu erstellen. Der Benutzer kann Fragen und Antowrten Hinzufügen, Speichern und Löschen. 
 
 ### 1.2 Anforderung
 
@@ -21,11 +21,8 @@ In meinem Projekt wäre ein Quiz zu erstellen. Der Benutzer kann ein Fragen und 
 | 1 | muss | Funktion | Der Benutzer muss wörter einfügen können. |
 | 2 | muss | Randbedingung | Das Programm soll in C# geschrieben werden.|
 | 3 | muss | Funktion | Nach jedere einfügen des Wörters, müssen die Karten gespeichert werden. |
-| 4 | muss | Funktion | Das Programm soll eine Lösch-Funktion haben, um Karteikarte zu löschen.|
-| 5 | muss | Funktion | Das Programm soll den Benutzer den Kärtchen abfragen lassen. |
-| 6 | muss | Qualität | Es soll eine angemessene Darstellung haben, so das man es versteht. (Benutzerfreundlichkeit)|
-| 7 | muss | Qualität | Die Darstellung und Farbe soll einfach sein und nicht viel mit bunte Farben. |
-| 8 | muss | Funktion | Am Ende sollte eine Bewertung angezeigt werden, wie gut ich war|
+| 4 | muss | Funktion | Dss Program soll eine Änderungsfunktion jaben, um Karteikarte zu ändern. |
+| 5 | muss | Funktion | Das Programm soll eine Lösch-Funktion haben, um Karteikarte zu löschen.|
 
 
 ### 1.3 Testfälle
@@ -49,11 +46,10 @@ In meinem Projekt wäre ein Quiz zu erstellen. Der Benutzer kann ein Fragen und 
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A | 17.01.2024 | Sathana | Wörter einfügen | 50min |
 | 3.A | 17.01.2024 | Sathana | Wörter Speicherung  | 45min |
+| 4.A | 24.01.2024 | Sathana | Änderungsfunktion | 45 min |
 | 4.A | 17.01.2024 | Sathana | Lösch-Funktion | 50 min |
-| 5.A | 24.01.2024 | Sathana | Kärtchen abfragen | 2 x 45min|         
-| 6.A | 24.01.2024 | Sathana | Benutzerfreundlichkeit | 40 min |
-| 7.A | 14.02.2024 | Sathana | Farbe/Darstellung | 30 min|
-| 8.A | 14.02.2024 | Sathana | Ergebnisse/Bewertung anzeigen| 30 min |
+      
+
 
 
 Total: 7
@@ -61,7 +57,7 @@ Total: 7
 
 ## 3 Entscheiden
 
-Ich habe mich entschieden den Notenschnittrechner im Visual Studio in C# zu implementieren.
+Ich habe mich entschieden den Quiz im Visual Studio in C# zu implementieren.
 
 
 ## 4 Realisieren
@@ -72,9 +68,7 @@ Ich habe mich entschieden den Notenschnittrechner im Visual Studio in C# zu impl
 | 3.A  | 05.10.2023 | Sathana | 45min | - |
 | 4.A  | 05.10.2023 | Sathana | 50min | -|
 | 5.A  | 05.10.2023 | Sathana | 2 x 45min | - |
-| 6.A  | 05.10.2023 | Sathana | 40min | - |
-| 7.A  | 05.10.2023 | Sathana | 30min | - |
-| 8.A  | 05.10.2023 | Sathana | 30min | - |
+
 
 
 ## 5 Kontrollieren
@@ -86,7 +80,7 @@ Ich habe mich entschieden den Notenschnittrechner im Visual Studio in C# zu impl
 | 1.1  | 14.02.2024 | - | Sathana |
 | 1.2  | 14.02.2024 | - | Sathana |
 | 4.1  | 14.02.2024 | - | Sathana |
-| 4.2  | 14.02.2024 | -| Sathana |
+| 4.2  | 14.02.2024 | - | Sathana |
 | 7.1  | 14.02.2024 | - | Sathana |
 | 8.1  | 14.02.2024 | - | Sathana |
 | 5.1  | 14.02.2024 | - | Sathana |
