@@ -4,8 +4,8 @@ Name: Sathana Suganthasri
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-| 06.10.2023 | 0.0.1     | Projekt fertig erstellt.|
-| 06.10.2023 | 0.0.2     | Dokumentation fertig erstellt.|
+| 14.02.2024 | 0.0.1     | Projekt fertig erstellt.|
+| 14.01.2024 | 0.0.2     | Dokumentation fertig erstellt.|
 
 
 ## 1 Informieren
@@ -21,16 +21,18 @@ In meinem Projekt geht es um ein Quiz zu erstellen. Der Benutzer kann Fragen und
 | 1 | muss | Funktion | Der Benutzer muss wörter einfügen können. |
 | 2 | muss | Randbedingung | Das Programm soll in C# geschrieben werden.|
 | 3 | muss | Funktion | Nach jedere einfügen des Wörters, müssen die Karten gespeichert werden. |
-| 4 | muss | Funktion | Dss Program soll eine Änderungsfunktion jaben, um Karteikarte zu ändern. |
+| 4 | muss | Funktion | Dss Program soll eine Änderungsfunktion haben, um Karteikarte zu ändern. |
 | 5 | muss | Funktion | Das Programm soll eine Lösch-Funktion haben, um Karteikarte zu löschen.|
+| 6 | muss | Funktion | Wenn ich eine ID eingebe, muss dem entsprechende ID angezeigt werden. |
+| 7 | muss | Funktion | Das Programm muss ein Datenbank haben, um später die Kärtchen auszurufen. |
 
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1 | Programm startet| 6 | Ihr neuer Notenschnitt ist 6. Möchten sie weitere Noten eingeben? y oder n | 
-| 1.2 | Möchten sie weitere Noten eingeben y oder n? | y | Geben sie Ihre Note ein: |
+| 1.1 | Programm startet (Get)| - | [] | 
+| 1.2 | Testfall 1.1 | Frage: "Wer ist das" Antwort "ein Hund" | Frage: "Wer ist das" Antwort "ein Hund" |
 | 3.1 | Ihr neuer Notenschnitt ist ... Möchten sie weitere Noten eingeben y oder n? | n | Ihre Notenschnitt wäre .... und das heisst .....  |
 | 4.1 | Programm startet | doqjd | Ihre Eingabe ist ungültig. Bitte geben Sie eine Zahl ein.|
 | 4.2 | Möchten Sie weitere Noten eingeben y oder n?| fojwe | Ihre Eingabe ist ungültig. Bitte geben Sie eine y oder n.|
@@ -47,11 +49,10 @@ In meinem Projekt geht es um ein Quiz zu erstellen. Der Benutzer kann Fragen und
 | 1.A | 17.01.2024 | Sathana | Wörter einfügen | 50min |
 | 3.A | 17.01.2024 | Sathana | Wörter Speicherung  | 45min |
 | 4.A | 24.01.2024 | Sathana | Änderungsfunktion | 45 min |
-| 4.A | 17.01.2024 | Sathana | Lösch-Funktion | 50 min |
+| 5.A | 17.01.2024 | Sathana | Lösch-Funktion | 50 min |
+| 6.A | 14.01.2024 | Sathana | ID anzeigen | 40min |
+| 7.A | 14.01.2024 | Sathana | Datenbank | 45 min
       
-
-
-
 Total: 7
 
 
@@ -64,11 +65,12 @@ Ich habe mich entschieden den Quiz im Visual Studio in C# zu implementieren.
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  | 05.10.2023 | Sathana | 50min | - |
-| 3.A  | 05.10.2023 | Sathana | 45min | - |
-| 4.A  | 05.10.2023 | Sathana | 50min | -|
-| 5.A  | 05.10.2023 | Sathana | 2 x 45min | - |
-
+| 1.A  | 17.01.2024 | Sathana | 50min | 2 x 45 min |
+| 3.A  | 24.01.2024 | Sathana | 45min | 2 x 45min |
+| 4.A  | 24.01.2024 | Sathana | 45min | 50 min |
+| 5.A  | 14.02.2024 | Sathana | 50min | 50min |
+| 6.A  | 14.02.2024 | Sathana | 40 min | 45min |
+| 7.A  | 14.02.2024 | Sathana | 45min | 30 min |
 
 
 ## 5 Kontrollieren
