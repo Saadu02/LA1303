@@ -39,9 +39,9 @@ In meinem Projekt geht es um ein Quiz, bei dem der Benutzer kann Fragen und Antw
 | 5.1 | Programm startet (Delete-Methode)| id: (den gwünschten/existierte id wählen) | Code: 204 | 
 | 6.1 | Programm startet (GET-Methode)| id: (den gewünschte/existerende id wählen) | Code: 204 | 
 | 7.1 | Programm startet (GET)| (den Excute klicken) | Code: 200  (alle Kärtchen-Informationen werden angezeigt) | 
-| 8.1 | Programm startet (GET-Methode)| id: (Id welches noch nicht existiert) | Code: Error 404, title: "Not Found" | 
-| 8.2 | Programm startet (PUT-Methode)| id: (id welches noch nicht existiert) | Code: Error 404, title: "Not Found" |
-| 8.3 | Programm startet (PUT-Methode)| id: (welches noch nicht existiert) | Code: Error 404, title: "Not Found" | 
+| 8.1 | Programm startet (GET-Methode)| id: (Id welches noch nicht existiert) | Code: Error 404, "Der Benutzer existiert nicht" | 
+| 8.2 | Programm startet (PUT-Methode)| id: (id welches noch nicht existiert) | Code: Error 404, "Der Benutzer existiert nicht" |
+| 8.3 | Programm startet (DELETE-Methode)| id: (ID welches noch nicht existiert) | Code: Error 404, "Der Benutzer existiert nicht" | 
 
 
 ## 2 Planen
