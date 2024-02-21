@@ -28,7 +28,6 @@ In meinem Projekt geht es um ein Quiz. Der Benutzer kann Fragen und Antworten sc
 | 8 | muss | Funktion | Wenn ich etwas falsches eingebe, muss ein Error angezeig werden. |
 
 
-
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
@@ -52,7 +51,7 @@ In meinem Projekt geht es um ein Quiz. Der Benutzer kann Fragen und Antworten sc
 | 3.A | 17.01.2024 | Sathana | Wörter Speicherung | 45 min |
 | 4.A | 24.01.2024 | Sathana | Änderungsfunktion | 45 min |
 | 5.A | 17.01.2024 | Sathana | Lösch-Funktion | 50 min |
-| 6.A | 14.01.2024 | Sathana | ID anzeigen | 40min |
+| 6.A | 14.01.2024 | Sathana | ID anzeigen | 40 min |
 | 7.A | 14.01.2024 | Sathana | Datenbank | 45 min |
 | 8.A | 14.01.2024 | Sathana | Error | 30 min|
       
@@ -84,14 +83,14 @@ Ich habe mich entschieden den Quiz im Visual Studio in C# --> ASP.NET Core-Web-A
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
 | 1.1  | 14.02.2024 | - | Sathana |
-| 1.2  | 14.02.2024 | - | Sathana |
+| 3.1  | 14.02.2024 | - | Sathana |
 | 4.1  | 14.02.2024 | - | Sathana |
-| 4.2  | 14.02.2024 | - | Sathana |
+| 5.1  | 14.02.2024 | - | Sathana |
+| 6.1  | 14.02.2024 | - | Sathana |
 | 7.1  | 14.02.2024 | - | Sathana |
 | 8.1  | 14.02.2024 | - | Sathana |
-| 5.1  | 14.02.2024 | - | Sathana |
-| 7.2  | 14.02.2024 | - | Sathana |
+| 8.2  | 14.02.2024 | - | Sathana |
+| 8.3  | 14.02.2024 | - | Sathana |
 
 
-Das Spiel wurde auf einem HP Windows 11 Pro getestet. Ab und zu mal hat der Ton bei fehlerhaften Eingaben nicht abgespielt. Ansonsten funktioniert alles einwandfrei.
-
+Dieses Quiz-Projekt wurde auf einem HP Windows 11 Pro getestet und die Test wurde alle bestanden.
