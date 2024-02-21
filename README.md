@@ -34,6 +34,7 @@ In meinem Projekt geht es um ein Quiz, bei dem der Benutzer kann Fragen und Antw
 | ---- | ------------ | ------- | ----------------- |
 | 1.1 | Programm startet (POST-Methode)| { "frage": "Essen auf französisch?", "antwort": "manger" } | Code: 201 | 
 | 3.1 | Programm startet (POST-Methode)| { "frage": "Der Name auf französisch?", "antwort": "le nom" } | Code : 201 | 
+| 3.2 | Testfall 3.1 | (Get-Methode) mit entsprechenden Id klicken | Code : 200 { "frage": "Der Name auf französisch?", "antwort": "le nom" }|
 | 4.1 | Programm startet (PUT-Methode)| id : (ID wählen) { "frage": "Essen auf französisch?", "antwort": "Repas" } | Code: 204 | 
 | 5.1 | Programm startet (Delete-Methode)| id: (den gwünschten/existierte id wählen) | Code: 204 | 
 | 6.1 | Programm startet (GET-Methode)| id: (den gewünschte/existerende id wählen) | Code: 204 | 
@@ -82,15 +83,16 @@ Ich habe mich entschieden, das Quiz in Visual Studio mit C# und ASP.NET Core-Web
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  | 14.02.2024 | - | Sathana |
-| 3.1  | 14.02.2024 | - | Sathana |
-| 4.1  | 14.02.2024 | - | Sathana |
-| 5.1  | 14.02.2024 | - | Sathana |
-| 6.1  | 14.02.2024 | - | Sathana |
-| 7.1  | 14.02.2024 | - | Sathana |
-| 8.1  | 14.02.2024 | - | Sathana |
-| 8.2  | 14.02.2024 | - | Sathana |
-| 8.3  | 14.02.2024 | - | Sathana |
+| 1.1  | 14.02.2024 | OK | Sathana |
+| 3.1  | 14.02.2024 | OK | Sathana |
+| 3.2  | 14.02.2024 | OK | Sathana |
+| 4.1  | 14.02.2024 | OK | Sathana |
+| 5.1  | 14.02.2024 | OK | Sathana |
+| 6.1  | 14.02.2024 | OK | Sathana |
+| 7.1  | 14.02.2024 | OK | Sathana |
+| 8.1  | 14.02.2024 | OK | Sathana |
+| 8.2  | 14.02.2024 | OK | Sathana |
+| 8.3  | 14.02.2024 | OK | Sathana |
 
 
 Dieses Quiz-Projekt wurde auf einem HP Windows 11 Pro getestet und alle Test wurden bestanden.
