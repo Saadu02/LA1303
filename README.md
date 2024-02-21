@@ -12,7 +12,7 @@ Name: Sathana Suganthasri
 
 ### 1.1 Ihr Projekt
 
-In meinem Projekt geht es um ein Quiz zu erstellen. Der Benutzer kann Fragen und Antowrten Hinzufügen, Speichern und Löschen. 
+In meinem Projekt geht es um ein Quiz. Der Benutzer kann Fragen und Antworten schreiben, ändern, Löschen und Aufrufen kann. 
 
 ### 1.2 Anforderung
 
