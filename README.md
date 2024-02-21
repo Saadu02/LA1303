@@ -12,20 +12,20 @@ Name: Sathana Suganthasri
 
 ### 1.1 Ihr Projekt
 
-In meinem Projekt geht es um ein Quiz. Der Benutzer kann Fragen und Antworten schreiben, ändern, Löschen und Aufrufen kann. 
+In meinem Projekt geht es um ein Quiz, bei dem der Benutzer kann Fragen und Antworten schreiben, ändern, Löschen und anzeigen kann. 
 
 ### 1.2 Anforderung
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1 | muss | Funktion | Der Benutzer muss wörter einfügen können. |
+| 1 | muss | Funktion | Der Benutzer muss Wörter einfügen können. |
 | 2 | muss | Randbedingung | Das Programm soll in C# geschrieben werden.|
-| 3 | muss | Funktion | Nach jedere einfügen des Wörters, müssen die Karten gespeichert werden (Datenbank). |
-| 4 | muss | Funktion | Dss Program soll eine Änderungsfunktion haben, um Karteikarte zu ändern. |
-| 5 | muss | Funktion | Das Programm soll eine Lösch-Funktion haben, um Karteikarte zu löschen.|
-| 6 | muss | Funktion | Wenn ich eine ID eingebe, muss dem entsprechende ID angezeigt werden. |
-| 7 | muss | Funktion | Ich kann alle kärtchen auf einmal aufrufen, damit ich alle sehen kann. | 
-| 8 | muss | Funktion | Wenn ich etwas falsches eingebe, muss ein Error angezeig werden. |
+| 3 | muss | Funktion | Nach jedem einfügen des Wörters, müssen die Karten gespeichert werden(Datenbank). |
+| 4 | muss | Funktion | Das Program soll eine Funktion zum Bearbeiten von Karteikarten haben, um Änderungen vorzunehmen. |
+| 5 | muss | Funktion | Das Programm soll eine Löschfunktion für das Entfernen von Karteikarten haben. |
+| 6 | muss | Funktion | Wenn ich eine ID eingebe, soll die entsprechende Karteikarte angezeigt werden. |
+| 7 | muss | Funktion | Ich kann alle kärtchen auf einmal aubrufen, um alle anzeigen zu können. | 
+| 8 | muss | Funktion | Wenn ich etwas Falsches eingebe, soll ein Error angezeigt werden. |
 
 
 ### 1.3 Testfälle
@@ -48,11 +48,11 @@ In meinem Projekt geht es um ein Quiz. Der Benutzer kann Fragen und Antworten sc
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A | 17.01.2024 | Sathana | Wörter einfügen | 50 min |
-| 3.A | 17.01.2024 | Sathana | Wörter Speicherung | 45 min |
+| 3.A | 17.01.2024 | Sathana | Wörter Speicherung / Datenbank | 45 min |
 | 4.A | 24.01.2024 | Sathana | Änderungsfunktion | 45 min |
 | 5.A | 17.01.2024 | Sathana | Lösch-Funktion | 50 min |
 | 6.A | 14.01.2024 | Sathana | ID anzeigen | 40 min |
-| 7.A | 14.01.2024 | Sathana | Datenbank | 45 min |
+| 7.A | 14.01.2024 | Sathana | ID/Datenbank | 45 min |
 | 8.A | 14.01.2024 | Sathana | Error | 30 min|
       
 Total: 7
@@ -60,7 +60,7 @@ Total: 7
 
 ## 3 Entscheiden
 
-Ich habe mich entschieden den Quiz im Visual Studio in C# --> ASP.NET Core-Web-API zu implementieren. 
+Ich habe mich entschieden, das Quiz in Visual Studio mit C# und ASP.NET Core-Web-API zu implementieren. 
 
 
 ## 4 Realisieren
@@ -93,4 +93,4 @@ Ich habe mich entschieden den Quiz im Visual Studio in C# --> ASP.NET Core-Web-A
 | 8.3  | 14.02.2024 | - | Sathana |
 
 
-Dieses Quiz-Projekt wurde auf einem HP Windows 11 Pro getestet und die Test wurde alle bestanden.
+Dieses Quiz-Projekt wurde auf einem HP Windows 11 Pro getestet und alle Test wurden bestanden.
